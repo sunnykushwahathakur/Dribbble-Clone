@@ -269,3 +269,77 @@ html, body{
     scale: 1.04;
 }
 
+/************************************************ Responsive *****************************************/
+@media screen and  (max-width: 768px) {
+    #nav {
+        padding: 0 20px;
+    }
+
+    #nav-part1 h4{
+        display: none;
+    }
+
+    #nav-part2 button{
+        display: none;
+    }
+
+    #nav-part2 button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    #content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #content h4 {
+        font-size: 16px;
+    }
+
+    #content>button {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    #bottom {
+        height: 250px;
+    }
+
+    .elem {
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .elem .text-bottom h5 {
+        font-size: 12px;
+    }
+
+    .profbutton {
+        font-size: 12px;
+    }
+
+    #page2 {
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    #page2 h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .box {
+        height: 200px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .box-bottom h5 {
+        font-size: 14px;
+    }
+
+    .box-bottom i {
+        font-size: 16px;
+    }
+}
